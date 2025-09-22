@@ -66,7 +66,8 @@ Ikuti langkah-langkah berikut untuk menyiapkan script.
 
 --- 🚀 Memulai Analisis Metadata untuk Folder: ./folder_saya ---
 
-========================= METADATA UNTUK: jurnal_penelitian.pdf =========================
+METADATA UNTUK: jurnal_penelitian.pdf 
+
 File Name                     : jurnal_penelitian.pdf
 Directory                     : ./folder_saya
 File Size                     : 512.45 KB
@@ -91,7 +92,7 @@ Modify Date                   : 2025:09:21 09:15:22
 Document ID                   : N/A
 Instance ID                   : N/A
 Author                        : Dr. Budi Santoso
-=======================================================================================
+
 
 ... (output serupa untuk file lainnya) ...
 
