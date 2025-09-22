@@ -64,9 +64,9 @@ Ikuti langkah-langkah berikut untuk menyiapkan script.
     Setelah script dijalankan, Anda akan melihat output detail untuk setiap file PDF, seperti di bawah ini:
 
 
-# --- 🚀 Memulai Analisis Metadata untuk Folder: ./folder_saya ---
+--- 🚀 Memulai Analisis Metadata untuk Folder: ./folder_saya ---
 
- METADATA UNTUK: jurnal_penelitian.pdf
+========================= METADATA UNTUK: jurnal_penelitian.pdf =========================
 File Name                     : jurnal_penelitian.pdf
 Directory                     : ./folder_saya
 File Size                     : 512.45 KB
@@ -93,9 +93,6 @@ Instance ID                   : N/A
 Author                        : Dr. Budi Santoso
 =======================================================================================
 
-
-
-
-        ... (output serupa untuk fileai lnnya) ...
+... (output serupa untuk file lainnya) ...
 
 --- ✨ Analisis Selesai. Total 3 file PDF diproses. ---
