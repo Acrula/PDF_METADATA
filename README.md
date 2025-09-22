@@ -33,11 +33,11 @@ git clone [https://github.com/nama-anda/nama-repositori-anda.git](https://github
 
 Atau, cukup unduh file pdf_meta_final.py dari halaman ini.
 
-##2. Masuk ke Direktori Proyek
+## 2. Masuk ke Direktori Proyek
 Bash
 
 cd nama-repositori-anda
-##3. Instal Library yang Dibutuhkan
+## 3. Instal Library yang Dibutuhkan
 Script ini membutuhkan library PyPDF2. Instal dengan perintah:
 
 Bash
@@ -49,7 +49,7 @@ Buat sebuah folder dan letakkan semua file PDF yang ingin dianalisis di dalamnya
 
 /proyek-anda/
 ├── pdf_meta_final.py    <-- Script utama
-└── /folder_saya/        <-- Folder berisi PDF
+└── /folderpdf/        <-- Folder berisi PDF
     ├── laporan_mingguan.pdf
     ├── jurnal_penelitian.pdf
     └── dokumen_penting.pdf
@@ -63,7 +63,7 @@ Format Perintah:
 python pdf_meta_final.py <path_ke_folder>
 
 Contoh Praktis:
-python pdf_meta_final.py ./folder_saya
+python pdf_meta_final.py ./folderpdf
 📋 Contoh Output di Terminal
 Setelah script dijalankan, Anda akan melihat output detail untuk setiap file PDF, seperti di bawah ini:
 
