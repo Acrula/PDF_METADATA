@@ -60,8 +60,9 @@ Ikuti langkah-langkah berikut untuk menyiapkan script.
 
     Contoh Praktis:
         python pdf_meta_final.py ./folderpdf
+        
     📋 Contoh Output di Terminal
-    Setelah script dijalankan, Anda akan melihat output detail untuk setiap file PDF, seperti di bawah ini:
+        Setelah script dijalankan, Anda akan melihat output detail untuk setiap file PDF, seperti di bawah ini:
 
 <img width="796" height="454" alt="image" src="https://github.com/user-attachments/assets/88a778b9-1d69-486a-9534-bf82bacbddae" />
 
