@@ -66,7 +66,3 @@ Ikuti langkah-langkah berikut untuk menyiapkan script.
 
 <img width="796" height="454" alt="image" src="https://github.com/user-attachments/assets/88a778b9-1d69-486a-9534-bf82bacbddae" />
 
-
-... (output serupa untuk file lainnya) ...
-
---- ✨ Analisis Selesai. Total 3 file PDF diproses. ---
