@@ -1,50 +1,51 @@
-# PDF_METADATA
-🚀 PDF Metadata Extractor
-Sebuah script Python sederhana untuk mengekstrak metadata lengkap dari semua file PDF dalam sebuah folder. Output ditampilkan di terminal dengan format yang detail dan rapi, terinspirasi dari exiftool, untuk memberikan wawasan mendalam tentang setiap file.
+# 🚀 PDF Metadata Extractor
 
-✨ Fitur Utama
-Ekstraksi Komprehensif: Mengambil metadata dari sistem file (ukuran, tanggal modifikasi, dll.) dan dari internal PDF (Judul, Penulis, Jumlah Halaman, dll.).
+Sebuah script Python untuk mengekstrak metadata lengkap dari file-file PDF dalam sebuah folder. Output ditampilkan di terminal dengan format yang detail dan rapi, terinspirasi dari `exiftool`, untuk memberikan wawasan mendalam tentang setiap file.
 
-Analisis Batch: Secara otomatis menganalisis semua file .pdf yang ada di dalam folder yang Anda tentukan.
+---
 
-Output Terstruktur: Menampilkan metadata di terminal dengan format yang jelas dan terkategori untuk setiap file.
+## ✨ Fitur Utama
 
-Kompatibilitas: Didesain agar kompatibel dengan berbagai versi library PyPDF2.
+-   **Ekstraksi Komprehensif**: Mengambil metadata dari sistem file (ukuran, tanggal modifikasi) dan internal PDF (Judul, Penulis, Jumlah Halaman).
+-   **Analisis Batch**: Menganalisis semua file `.pdf` secara otomatis di dalam folder yang ditentukan.
+-   **Output Terstruktur**: Menampilkan metadata di terminal dengan format yang jelas untuk setiap file.
+-   **Kompatibilitas**: Didesain agar kompatibel dengan berbagai versi library `PyPDF2`.
 
-⚙️ Prasyarat
-Sebelum memulai, pastikan Anda sudah menginstal:
+---
 
-Python (versi 3.6 atau yang lebih baru)
+## ⚙️ Prasyarat
 
-pip (biasanya sudah terinstal bersama Python)
+Sebelum memulai, pastikan Anda sudah memiliki:
+-   Python (versi 3.6 atau yang lebih baru)
+-   `pip` (Python package installer)
 
-🛠️ Instalasi
-Ikuti langkah-langkah berikut untuk menyiapkan dan menjalankan script.
+---
 
-Clone Repositori
-Buka terminal atau Git Bash, lalu clone repositori ini ke komputer Anda:
+## 🛠️ Instalasi
 
-Bash
+Ikuti langkah-langkah berikut untuk menyiapkan script.
 
-git clone https://github.com/nama-anda/nama-repositori-anda.git
-(Ganti nama-anda dan nama-repositori-anda)
+### 1. Clone Repositori
+Buka terminal Anda, lalu clone repositori ini ke komputer.
+```bash
+git clone [https://github.com/nama-anda/nama-repositori-anda.git](https://github.com/nama-anda/nama-repositori-anda.git)
+(Ganti nama-anda dan nama-repositori-anda dengan URL repositori Anda)
 
 Atau, cukup unduh file pdf_meta_final.py dari halaman ini.
 
-Masuk ke Direktori Proyek
-
+##2. Masuk ke Direktori Proyek
 Bash
 
 cd nama-repositori-anda
-Instal Library yang Dibutuhkan
-Script ini hanya membutuhkan satu library eksternal, yaitu PyPDF2. Instal dengan perintah:
+##3. Instal Library yang Dibutuhkan
+Script ini membutuhkan library PyPDF2. Instal dengan perintah:
 
 Bash
 
 pip install PyPDF2
-▶️ Cara Menjalankan Script
-Siapkan Folder PDF Anda
-Buat sebuah folder di dalam direktori proyek (atau di mana saja) dan letakkan semua file PDF yang ingin Anda analisis di dalamnya. Misalnya, Anda membuat folder bernama folder_saya.
+##▶️ Cara Menjalankan Script
+Siapkan Folder PDF
+Buat sebuah folder dan letakkan semua file PDF yang ingin dianalisis di dalamnya. Contoh struktur folder:
 
 /proyek-anda/
 ├── pdf_meta_final.py    <-- Script utama
@@ -53,22 +54,19 @@ Buat sebuah folder di dalam direktori proyek (atau di mana saja) dan letakkan se
     ├── jurnal_penelitian.pdf
     └── dokumen_penting.pdf
 Jalankan Perintah di Terminal
-Buka terminal dari direktori proyek Anda dan jalankan script dengan memberikan path ke folder PDF Anda sebagai argumen.
+Buka terminal dari direktori proyek dan jalankan script, arahkan ke folder PDF Anda.
 
 Format Perintah:
 
-Bash
+
 
 python pdf_meta_final.py <path_ke_folder>
+
 Contoh Praktis:
-
-Bash
-
 python pdf_meta_final.py ./folder_saya
 📋 Contoh Output di Terminal
-Setelah script dijalankan, Anda akan melihat output yang detail untuk setiap file PDF, seperti di bawah ini:
+Setelah script dijalankan, Anda akan melihat output detail untuk setiap file PDF, seperti di bawah ini:
 
-Bash
 
 --- 🚀 Memulai Analisis Metadata untuk Folder: ./folder_saya ---
 
