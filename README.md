@@ -34,15 +34,13 @@ git clone [https://github.com/nama-anda/nama-repositori-anda.git](https://github
 Atau, cukup unduh file pdf_meta_final.py dari halaman ini.
 
 ## 2. Masuk ke Direktori Proyek
-Bash
-
 cd nama-repositori-anda
+
 ## 3. Instal Library yang Dibutuhkan
 Script ini membutuhkan library PyPDF2. Instal dengan perintah:
 
-Bash
-
 pip install PyPDF2
+
 ##▶️ Cara Menjalankan Script
 Siapkan Folder PDF
 Buat sebuah folder dan letakkan semua file PDF yang ingin dianalisis di dalamnya. Contoh struktur folder:
@@ -57,8 +55,6 @@ Jalankan Perintah di Terminal
 Buka terminal dari direktori proyek dan jalankan script, arahkan ke folder PDF Anda.
 
 Format Perintah:
-
-
 
 python pdf_meta_final.py <path_ke_folder>
 
