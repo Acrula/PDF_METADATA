@@ -63,35 +63,7 @@ Ikuti langkah-langkah berikut untuk menyiapkan script.
     📋 Contoh Output di Terminal
     Setelah script dijalankan, Anda akan melihat output detail untuk setiap file PDF, seperti di bawah ini:
 
-
---- 🚀 Memulai Analisis Metadata untuk Folder: ./folder_saya ---
-
-METADATA UNTUK: jurnal_penelitian.pdf 
-
-File Name                     : jurnal_penelitian.pdf
-Directory                     : ./folder_saya
-File Size                     : 512.45 KB
-File Modification Date/Time   : 2025:09:22 10:40:15
-File Access Date/Time         : 2025:09:22 11:05:30
-File Inode Change Date/Time   : 2025:09:22 10:40:11
-File Permissions              : -rw-r--r--
-File Type                     : PDF
-File Type Extension           : pdf
-MIME Type                     : application/pdf
-PDF Version                   : 1.7
-Linearized                    : No
-Page Count                    : 15
-Language                      : N/A
-Tagged PDF                    : No
-XMP Toolkit                   : N/A
-Producer                      : Microsoft® Print to PDF
-Creator                       : Microsoft® Word 365
-Creator Tool                  : Microsoft® Word 365
-Create Date                   : 2025:09:20 14:30:00
-Modify Date                   : 2025:09:21 09:15:22
-Document ID                   : N/A
-Instance ID                   : N/A
-Author                        : Dr. Budi Santoso
+<img width="796" height="454" alt="image" src="https://github.com/user-attachments/assets/88a778b9-1d69-486a-9534-bf82bacbddae" />
 
 
 ... (output serupa untuk file lainnya) ...
