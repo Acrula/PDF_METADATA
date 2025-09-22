@@ -1,4 +1,4 @@
-# 🚀 PDF Metadata Extractor
+# 🚀 PDF Metadata
 
 Sebuah script Python untuk mengekstrak metadata lengkap dari file-file PDF dalam sebuah folder. Output ditampilkan di terminal dengan format yang detail dan rapi, terinspirasi dari `exiftool`, untuk memberikan wawasan mendalam tentang setiap file.
 
@@ -27,7 +27,7 @@ Ikuti langkah-langkah berikut untuk menyiapkan script.
 
 1. Clone Repositori
 Buka terminal Anda, lalu clone repositori ini ke komputer.
-```bash
+
 git clone [https://github.com/nama-anda/nama-repositori-anda.git](https://github.com/nama-anda/nama-repositori-anda.git)
 (Ganti nama-anda dan nama-repositori-anda dengan URL repositori Anda)
 
