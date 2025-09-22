@@ -26,45 +26,45 @@ Sebelum memulai, pastikan Anda sudah memiliki:
 Ikuti langkah-langkah berikut untuk menyiapkan script.
 
 1. Clone Repositori
-Buka terminal Anda, lalu clone repositori ini ke komputer.
+    Buka terminal Anda, lalu clone repositori ini ke komputer.
 
-git clone [https://github.com/nama-anda/nama-repositori-anda.git](https://github.com/nama-anda/nama-repositori-anda.git)
-(Ganti nama-anda dan nama-repositori-anda dengan URL repositori Anda)
+    git clone [https://github.com/nama-anda/nama-repositori-anda.git](https://github.com/nama-anda/nama-repositori-anda.git)
+    (Ganti nama-anda dan nama-repositori-anda dengan URL repositori Anda)
 
-Atau, cukup unduh file pdf_meta_final.py dari halaman ini.
+    Atau, cukup unduh file pdf_meta_final.py dari halaman ini.
 
 2. Masuk ke Direktori Proyek
-cd nama-repositori-anda
+    cd nama-repositori-anda
 
 3. Instal Library yang Dibutuhkan
-Script ini membutuhkan library PyPDF2. Instal dengan perintah:
+    Script ini membutuhkan library PyPDF2. Instal dengan perintah:
 
-pip install PyPDF2
+    pip install PyPDF2
 
-###▶️ Cara Menjalankan Script
-Siapkan Folder PDF
-Buat sebuah folder dan letakkan semua file PDF yang ingin dianalisis di dalamnya. Contoh struktur folder:
+# ▶️ Cara Menjalankan Script
+    Siapkan Folder PDF
+    Buat sebuah folder dan letakkan semua file PDF yang ingin dianalisis di dalamnya. Contoh struktur folder:
 
-/proyek-anda/
-├── pdf_meta_final.py    <-- Script utama
-└── /folderpdf/        <-- Folder berisi PDF
-    ├── laporan_mingguan.pdf
-    ├── jurnal_penelitian.pdf
-    └── dokumen_penting.pdf
-Jalankan Perintah di Terminal
-Buka terminal dari direktori proyek dan jalankan script, arahkan ke folder PDF Anda.
+        /proyek-anda/
+        ├── pdf_meta_final.py    <-- Script utama
+        └── /folderpdf/        <-- Folder berisi PDF
+            ├── laporan_mingguan.pdf
+            ├── jurnal_penelitian.pdf
+            └── dokumen_penting.pdf
+    Jalankan Perintah di Terminal
+    Buka terminal dari direktori proyek dan jalankan script, arahkan ke folder PDF Anda.
 
-Format Perintah:
+    Format Perintah:
 
-python pdf_meta_final.py <path_ke_folder>
+        python pdf_meta_final.py <path_ke_folder>
 
-Contoh Praktis:
-python pdf_meta_final.py ./folderpdf
-📋 Contoh Output di Terminal
-Setelah script dijalankan, Anda akan melihat output detail untuk setiap file PDF, seperti di bawah ini:
+    Contoh Praktis:
+        python pdf_meta_final.py ./folderpdf
+    📋 Contoh Output di Terminal
+    Setelah script dijalankan, Anda akan melihat output detail untuk setiap file PDF, seperti di bawah ini:
 
 
---- 🚀 Memulai Analisis Metadata untuk Folder: ./folder_saya ---
+# --- 🚀 Memulai Analisis Metadata untuk Folder: ./folder_saya ---
 
 ========================= METADATA UNTUK: jurnal_penelitian.pdf =========================
 File Name                     : jurnal_penelitian.pdf
