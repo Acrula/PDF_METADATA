@@ -25,7 +25,7 @@ Sebelum memulai, pastikan Anda sudah memiliki:
 
 Ikuti langkah-langkah berikut untuk menyiapkan script.
 
-### 1. Clone Repositori
+1. Clone Repositori
 Buka terminal Anda, lalu clone repositori ini ke komputer.
 ```bash
 git clone [https://github.com/nama-anda/nama-repositori-anda.git](https://github.com/nama-anda/nama-repositori-anda.git)
@@ -33,15 +33,15 @@ git clone [https://github.com/nama-anda/nama-repositori-anda.git](https://github
 
 Atau, cukup unduh file pdf_meta_final.py dari halaman ini.
 
-## 2. Masuk ke Direktori Proyek
+2. Masuk ke Direktori Proyek
 cd nama-repositori-anda
 
-## 3. Instal Library yang Dibutuhkan
+3. Instal Library yang Dibutuhkan
 Script ini membutuhkan library PyPDF2. Instal dengan perintah:
 
 pip install PyPDF2
 
-##▶️ Cara Menjalankan Script
+###▶️ Cara Menjalankan Script
 Siapkan Folder PDF
 Buat sebuah folder dan letakkan semua file PDF yang ingin dianalisis di dalamnya. Contoh struktur folder:
 
@@ -93,6 +93,9 @@ Instance ID                   : N/A
 Author                        : Dr. Budi Santoso
 =======================================================================================
 
-... (output serupa untuk file lainnya) ...
+
+
+
+        ... (output serupa untuk fileai lnnya) ...
 
 --- ✨ Analisis Selesai. Total 3 file PDF diproses. ---
